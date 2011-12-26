@@ -1,0 +1,7 @@
+lobo_d_b's vim config and plugins
+
+Installation:
+
+git clone git@github.com:lobodb/MyVimConfig.git ~/.vim
+
+ln -s ~/.vim/vimrc ~/.vimrc

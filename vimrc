@@ -9,6 +9,7 @@
 " colors and theme
 set t_Co=256
 let g:colors_name="railscasts"
+set completeopt=menu,preview,longest
 
 " line number
 set nu
@@ -59,3 +60,5 @@ endif
 " Alt + ->/<- to move tabs
 nnoremap <silent> <A-Left> :execute 'silent! tabmove ' . (tabpagenr()-2)<CR>
 nnoremap <silent> <A-Right> :execute 'silent! tabmove ' . tabpagenr()<CR>
+
+nnoremap <silent> <F12> :execute 'ConqueTermTab zsh'<CR>

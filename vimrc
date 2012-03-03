@@ -6,6 +6,9 @@
 " " nerdtree https://github.com/scrooloose/nerdtree
 " " snipmate https://github.com/msanders/snipmate.vim
 
+" added sh shell to avoid zsh conflicts
+set shell=/bin/sh
+
 " colors and theme
 set t_Co=256
 let g:colors_name="railscasts"
